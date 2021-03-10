@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { LocalStorageKeysEnum } from '../enum/localstorage-keys.enum'
 
-const baseUrl = 'http://localhost:8080/user';
+const baseUrl = 'https://giltreenews-back.herokuapp.com/user';
 
 @Injectable({
   providedIn: 'root'

@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { CommentsModel } from '../models/comments.model';
 
-const baseUrl = 'http://localhost:8080/comments';
+const baseUrl = 'https://giltreenews-back.herokuapp.com/comments';
 
 @Injectable({
   providedIn: 'root'
